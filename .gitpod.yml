@@ -8,7 +8,7 @@ ports:
 
 tasks:
   - init: >
-     composer create-project wintercms/winter mywinter
+     composer create-project wintercms/winter .
 #     mysql -u root -e "create database example_app" &&
 #      cp .env.example .env &&
 #      sed -i "s|APP_URL=|APP_URL=${GITPOD_WORKSPACE_URL}|g" .env &&
